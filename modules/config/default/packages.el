@@ -4,5 +4,6 @@
 (when (featurep! +snippets)
   (package! emacs-snippets
     :recipe (:fetcher github
-             :repo "hlissner/emacs-snippets"
+             :repo "wildsebastian/emacs-snippets"
+             :branch "coq-snippets"
              :files ("*"))))
